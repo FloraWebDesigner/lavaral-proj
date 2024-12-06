@@ -1,0 +1,20 @@
+{
+    "name": "flora/lavaral-proj",
+    "description": "a basic example of using php composer",
+    "type": "project",
+    "require": {
+        "smottt/wideimage": "1.1.4",
+        "dompdf/dompdf":"3.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flora\\LavaralProj\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "FloraIsDesignWebs",
+            "email": "flora.jiang1990@gmail.com"
+        }
+    ]
+}
